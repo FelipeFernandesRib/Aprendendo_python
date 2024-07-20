@@ -1,0 +1,8 @@
+nome = str(input('Digite o seu nome completo: '))
+print('Esse é o seu nome com todas as letras maiùsculas: {}'.format(nome.upper()))
+print('Esse é o seu nome com todas as letras minúsculas: {}'.format(nome.lower()))
+quant_esp = nome.count(' ')
+total_carac = len(nome)
+print('O seu nome possui {} letras'.format(total_carac - quant_esp))
+quant_prm_nome = nome.split()
+print('Seu primeiro nome possui {} letras'.format(len(quant_prm_nome[0])))
